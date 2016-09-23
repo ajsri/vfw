@@ -8,7 +8,7 @@ const dirs = {
 }
 
 gulp.task("default", () => {
-  return gulp.src("./app/styles/xof.scss"
+  return gulp.src("./app/styles/vfw.scss"
          .pipe(sass())
          .pipe(gulp.dest("./public/css"))
 

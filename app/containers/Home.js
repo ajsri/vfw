@@ -1,6 +1,6 @@
 import { connect } from "react-redux"
 import Home from "../components/home"
-import { sampleRestCall } from "../actions/sample"
+import { sampleRestCall } from "../actions/index"
 
 const mapStateToProps = (state, ownProps) => {
   return {
